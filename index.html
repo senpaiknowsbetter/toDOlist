@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>To-Do List</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">  
+    <link rel="stylesheet" href="stylo.css">  
+  </head>
+  <body>
+    <div class="container">
+      <h1><B>To-Do list!</B></h1>
+      <p>
+        <label for="new-task">Add Item</label><input id="new-task" type="text"><button>Add</button>
+      </p>
+      
+      <h3>Todo</h3>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>Example Task</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+       
+        
+      </ul>
+      
+      <h3>Completed</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>Sample Completed Task</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
